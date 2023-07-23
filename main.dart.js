@@ -98757,23 +98757,30 @@ return B.cw}if(r.k2==null)return B.cw
 return new A.n_(new A.aw8(this.a,r,b),null)},
 $S:663}
 A.aw8.prototype={
-$2(a,b){var s,r,q,p,o=null,n=this.a,m=this.b,l=this.c,k=t.p,j=n.d,i=n.f
-if(b.b>b.d){s=A.ei(n.NC(m),5)
-r=n.c
-r.toString
-q=t.l
-r=A.bp(r,o,q).w
-p=n.c
-p.toString
-j=A.i4(80,A.dh(A.a([s,new A.oI(3,B.fD,A.G4(new A.bd(B.HF,new A.dl(new A.ar(A.bp(p,o,q).w.a.a/3,r.a.a/3,0,1/0),A.ji(A.vb(B.i8,new A.bd(B.fu,n.WI(m,l),o),B.be),o,o,o),o),o),i,j,B.f8,B.ai),o)],k),B.v,B.bM,B.w,o),o,o,0,0,0,o)
-i=n.c
-i.toString
-i=A.T(i)
-return new A.dl(b,A.fo(B.aZ,A.a([j,A.i4(0,A.fQ(n.Nk(m),new A.ck(o,o,new A.cz(new A.b7(i.ax.b,3,B.F,-1),B.m,B.m,B.m),o,o,o,B.a1),B.aJ),80,o,0,0,o,o)],k),B.C,B.cY,o),o)}else{l=A.i4(60,A.G4(A.cF(A.a([new A.bd(B.iQ,new A.dl(B.lz,A.ji(A.vb(B.i8,A.cF(A.a([n.NC(m),new A.bd(B.fu,n.WI(m,l),o)],k),B.v,B.A,B.w,B.E),B.be),o,o,o),o),o)],k),B.v,B.A,B.w,B.E),i,j,B.f8,B.ai),o,o,0,0,0,o)
-j=n.c
-j.toString
-j=A.T(j)
-return new A.dl(b,A.fo(B.aZ,A.a([l,A.i4(0,A.fQ(n.Nk(m),new A.ck(o,o,new A.cz(new A.b7(j.ax.b,3,B.F,-1),B.m,B.m,B.m),o,o,o,B.a1),B.aJ),60,o,0,0,o,o)],k),B.C,B.cY,o),o)}},
+$2(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=b.b
+i=i>b.d&&i>800
+s=this.a
+r=this.b
+q=this.c
+p=t.p
+o=s.d
+n=s.f
+if(i){i=A.ei(s.NC(r),5)
+m=s.c
+m.toString
+l=t.l
+m=A.bp(m,j,l).w
+k=s.c
+k.toString
+o=A.i4(80,A.dh(A.a([i,new A.oI(3,B.fD,A.G4(new A.bd(B.HF,new A.dl(new A.ar(A.bp(k,j,l).w.a.a/3,m.a.a/3,0,1/0),A.ji(A.vb(B.i8,new A.bd(B.fu,s.WI(r,q),j),B.be),j,j,j),j),j),n,o,B.f8,B.ai),j)],p),B.v,B.bM,B.w,j),j,j,0,0,0,j)
+n=s.c
+n.toString
+n=A.T(n)
+return new A.dl(b,A.fo(B.aZ,A.a([o,A.i4(0,A.fQ(s.Nk(r),new A.ck(j,j,new A.cz(new A.b7(n.ax.b,3,B.F,-1),B.m,B.m,B.m),j,j,j,B.a1),B.aJ),80,j,0,0,j,j)],p),B.C,B.cY,j),j)}else{i=A.i4(60,A.G4(A.cF(A.a([new A.bd(B.iQ,new A.dl(B.lz,A.ji(A.vb(B.i8,A.cF(A.a([s.NC(r),new A.bd(B.fu,s.WI(r,q),j)],p),B.v,B.A,B.w,B.E),B.be),j,j,j),j),j)],p),B.v,B.A,B.w,B.E),n,o,B.f8,B.ai),j,j,0,0,0,j)
+q=s.c
+q.toString
+q=A.T(q)
+return new A.dl(b,A.fo(B.aZ,A.a([i,A.i4(0,A.fQ(s.Nk(r),new A.ck(j,j,new A.cz(new A.b7(q.ax.b,3,B.F,-1),B.m,B.m,B.m),j,j,j,B.a1),B.aJ),60,j,0,0,j,j)],p),B.C,B.cY,j),j)}},
 $S:193}
 A.AO.prototype={
 E(a){var s,r,q=this,p=null,o=q.d,n=o.gjH().e.length,m=A.bU(o.b+" version "+o.gjH().c,p,p,p,B.a2u,B.c6,p),l=q.c.p1.h(0,""+o.a)
